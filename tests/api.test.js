@@ -33,7 +33,7 @@ describe("GET /users/:id", () => {
       .set("Accept", "application/json")
       .expect("Content-Type", /json/)
       .expect(404)
-      .expect('"user not found"')
+      .expect('"user not foundd"')
       .end((err) => {
         if (err) return done(err);
         done();
