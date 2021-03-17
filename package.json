@@ -1,0 +1,19 @@
+{
+  "name": "nodejs-jenkins",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "mocha test/api.test.js --exit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mocha": "^8.3.2",
+    "morgan": "^1.10.0",
+    "supertest": "^6.1.3"
+  }
+}
